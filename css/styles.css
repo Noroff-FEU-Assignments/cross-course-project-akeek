@@ -74,9 +74,9 @@ h2 {
 
 .welcome {
   background-image: url("../images/Background_fall.jpg");
-  background-size: 145%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: -250px;
+  background-position-x: left;
   background-position-y: top;
   min-height: 70vh;
   position: relative;
