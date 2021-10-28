@@ -2,10 +2,6 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.logo {
-  font-size: 1.5em;
-}
-
 nav ul {
   padding: 0px;
   text-align: center;
@@ -29,7 +25,6 @@ header {
 
 /* links */
 ul a {
-  font-size: 1.5em;
   font-weight: lighter;
   text-decoration: none;
   padding: 50px;
@@ -56,18 +51,9 @@ a {
 
 /* Homepage */
 .h1 {
-  font-size: 5em;
   background: -webkit-radial-gradient(#00bfa0, #762911);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.h2 {
-  font-size: 3em;
-}
-
-.cta-browseitems {
-  font-size: 1.5em;
 }
 
 .welcome {
