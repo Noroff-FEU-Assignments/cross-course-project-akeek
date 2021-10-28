@@ -81,25 +81,23 @@ a {
 }
 
 .welcome__content {
-  display: inline-block;
-  position: absolute;
-  left: 750px;
-}
-
-.bottom {
-  color: #fff;
-  background-position-x: left;
-  background-position-y: bottom;
+  position: relative;
   float: right;
-  padding: 5px;
-}
-
-.bottom_source {
-  color: black;
-  font-style: italic;
+  right: 50px;
 }
 
 .quote {
   position: relative;
-  bottom: 65px;
+  bottom: 90px;
+  float: right;
+  padding: 5px;
+}
+
+.bottom {
+  color: #fff;
+}
+
+.bottom_source {
+  color: #fff;
+  font-style: italic;
 }
