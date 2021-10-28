@@ -69,7 +69,7 @@ h2 {
 
 .welcome {
   position: relative;
-  height: 70vh;
+  min-height: 70vh;
   width: 100%;
   display: flex;
   justify-content: right;
