@@ -3,16 +3,18 @@ body {
 }
 
 .logo {
-  height: 90px;
-  padding-top: 20px;
+  height: 60px;
+  float: left;
+  position: relative;
+  bottom: 20px;
+  right: 40px;
 }
 
 nav {
-  background-color: burlywood;
+  padding: 40px 40px;
 }
 
 nav ul {
-  padding: 0px;
   text-align: center;
 }
 
@@ -21,6 +23,7 @@ nav li {
 }
 
 .active {
+  background-color: #c5532c;
   color: #fff;
   padding: 0px;
   font-weight: bold;
@@ -71,9 +74,9 @@ h2 {
 
 .welcome {
   background-image: url("../images/Background_fall.jpg");
-  background-size: cover;
+  background-size: 145%;
   background-repeat: no-repeat;
-  background-position-x: left;
+  background-position-x: -250px;
   background-position-y: top;
   min-height: 70vh;
   position: relative;
