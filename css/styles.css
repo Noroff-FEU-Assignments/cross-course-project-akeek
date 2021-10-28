@@ -69,11 +69,10 @@ h2 {
 
 .welcome {
   position: relative;
-  height: 100vh;
+  height: 70vh;
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: right;
 }
 
 .welcome::before {
@@ -84,13 +83,12 @@ h2 {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  left: 0px;
+  left: -250px;
   opacity: 0.3;
 }
 
 .welcome__content {
   position: relative;
-  float: right;
   margin: 0px 50px 0px 0px;
   font-size: 1.5em;
 }
