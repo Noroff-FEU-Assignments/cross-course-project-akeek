@@ -19,6 +19,12 @@ nav li {
   margin: 15px;
 }
 
+nav a {
+  font-weight: lighter;
+  text-decoration: none;
+  padding: 15px;
+}
+
 .active {
   background-color: #c5532c;
   color: #fff;
@@ -31,14 +37,6 @@ header {
 }
 
 /* links */
-ul a {
-  font-weight: lighter;
-  text-decoration: none;
-}
-
-li a {
-  padding: 15px;
-}
 
 a:hover {
   text-decoration: underline;
