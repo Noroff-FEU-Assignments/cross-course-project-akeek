@@ -14,15 +14,14 @@ nav {
 }
 
 nav li {
-  display: inline;
-  padding: 50px;
+  display: inline-block;
   margin: 15px;
 }
 
 nav a {
   font-weight: lighter;
   text-decoration: none;
-  padding: 15px;
+  padding: 11px;
 }
 
 .active {
