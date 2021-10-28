@@ -83,8 +83,8 @@ h2 {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  left: -250px;
-  opacity: 0.3;
+  left: 0px;
+  opacity: 0.5;
 }
 
 .welcome__content {
