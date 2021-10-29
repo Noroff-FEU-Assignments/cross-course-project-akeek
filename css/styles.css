@@ -68,29 +68,18 @@ h2 {
 }
 
 .welcome {
-  position: relative;
-  min-height: 70vh;
-  width: 100%;
-  display: flex;
-  align-items: right;
-  justify-content: right;
-}
-
-.welcome::before {
-  content: "";
-  background-image: url("../images/Background_fall.jpg");
+  background-image: url("../images/Background_fall.png");
   background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+  min-height: 70vh;
+  position: relative;
 }
 
 .welcome__content {
   float: right;
-  position: absolute;
+  position: relative;
   margin: 0px 50px 0px 0px;
   font-size: 1.5em;
 }
