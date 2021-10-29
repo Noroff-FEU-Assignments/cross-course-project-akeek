@@ -35,10 +35,6 @@ nav a {
   font-weight: bold;
 }
 
-header {
-  color: black;
-}
-
 /* links */
 
 a:hover {
@@ -76,7 +72,7 @@ h2 {
   background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: top;
-  min-height: 70vh;
+  min-height: 100vh;
   position: relative;
 }
 
@@ -89,9 +85,11 @@ h2 {
 
 .quote {
   position: relative;
-  bottom: 90px;
+  bottom: 100px;
   float: right;
   padding: 5px;
+  font-size: 1.4em;
+  color: #0a3641;
 }
 
 .bottom_source {
