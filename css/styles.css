@@ -54,7 +54,7 @@ h1 {
 }
 
 h2 {
-  color: grey;
+  color: #0a3641;
   font-size: 1em;
 }
 
@@ -72,7 +72,7 @@ h2 {
   background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: top;
-  min-height: 100vh;
+  min-height: 70vh;
   position: relative;
 }
 
