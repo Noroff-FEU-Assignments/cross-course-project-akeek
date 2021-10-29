@@ -50,12 +50,11 @@ h1 {
   background: -webkit-radial-gradient(#00bfa0, #762911);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 1.3em;
+  font-size: 2em;
 }
 
 h2 {
   color: #0a3641;
-  font-size: 1em;
 }
 
 .cta-browseitems {
