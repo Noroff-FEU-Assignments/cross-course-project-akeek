@@ -14,9 +14,6 @@ nav {
   border-bottom: solid;
   border-width: 1px;
   border-color: #707070;
-  position: sticky;
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
 }
 
 nav li {
