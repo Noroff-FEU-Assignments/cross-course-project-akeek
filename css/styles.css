@@ -21,13 +21,13 @@ nav li {
   display: inline-block;
   position: relative;
   left: 30px;
-  color: black;
 }
 
 nav a {
   font-weight: lighter;
   text-decoration: none;
   padding: 5px;
+  color: black;
 }
 
 .active {
