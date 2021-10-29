@@ -69,13 +69,12 @@ h2 {
 }
 
 .welcome {
-  background-image: url("../images/Background_fall_blur.jpg");
+  background-image: url("../images/Background_fall_blur_1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: top;
   min-height: 80vh;
-  position: relative;
 }
 
 .welcome__content {
