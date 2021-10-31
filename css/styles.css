@@ -30,6 +30,8 @@ nav a {
   color: black;
 }
 
+/* links */
+
 .active {
   background-color: #c5532c;
   color: #fff;
@@ -37,8 +39,6 @@ nav a {
   font-weight: bold;
   border-radius: 2.5px;
 }
-
-/* links */
 
 a:hover {
   text-decoration: underline;
