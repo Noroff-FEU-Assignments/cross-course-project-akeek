@@ -30,6 +30,23 @@ nav a {
   color: black;
 }
 
+.flex_nav {
+  display: flex;
+  padding-left: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .flex_nav {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .flex_nav {
+    background-color: #c5532c;
+  }
+}
+
 /* links */
 
 .active {
