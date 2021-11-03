@@ -118,5 +118,6 @@ h2 {
 @media only screen and (max-width: 900px) {
   .quote {
     background-color: transparent;
+    bottom: 90px;
   }
 }
