@@ -54,7 +54,7 @@ a {
 }
 
 /* Homepage */
-h1 {
+.salespoint {
   background: -webkit-radial-gradient(#00bfa0, #762911);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -108,17 +108,4 @@ h2 {
 .bottom_source {
   font-style: italic;
   font-weight: normal;
-}
-
-@media only screen and (max-width: 599px) {
-  .flex_nav {
-    flex-direction: column;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .quote {
-    background-color: transparent;
-    bottom: 90px;
-  }
 }
