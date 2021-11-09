@@ -10,7 +10,8 @@ header {
 .fall_jacket {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
+  padding-top: 20px;
 }
 
 img {
@@ -32,6 +33,7 @@ h1 {
 
 .image {
   flex: 3;
+  max-width: 900px;
 }
 
 .add-to-cart {
