@@ -1,0 +1,25 @@
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .checkout{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+  }
+
+.checkout_text{
+    display: block;
+}
+
+  .product_image{
+      max-width: 900px;
+  }
+
+
+  @media only screen and (min-width: 600px) {
+    .checkout {
+      grid-template-rows: 1fr 1fr;
+    }
+  }
