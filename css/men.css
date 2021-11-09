@@ -1,16 +1,20 @@
+body {
+  background: #e6dcd8;
+}
+
 h1 {
   text-align: center;
+  text-decoration: underline;
 }
 
 .jackets {
-  background: #e6dcd8;
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
 
 .product-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 40px;
   padding: 60px 60px;
 }
@@ -18,4 +22,9 @@ h1 {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.products {
+  padding: 0px;
+  margin: 0px;
 }

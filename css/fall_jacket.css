@@ -1,0 +1,41 @@
+body {
+  background-color: #e6dcd8;
+}
+
+header {
+  background-color: white;
+  margin: -9px -9px 20px -9px;
+}
+
+.fall_jacket {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.size_text {
+  word-spacing: 80px;
+}
+
+.product {
+  flex: 2;
+}
+
+.image {
+  flex: 3;
+}
+
+@media only screen and (min-width: 600px) {
+  .fall_jacket {
+    flex-direction: row;
+  }
+}
