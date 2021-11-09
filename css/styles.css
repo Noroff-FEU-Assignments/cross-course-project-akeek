@@ -67,6 +67,10 @@ a {
   text-align: center;
 }
 
+.add-to-cart {
+  font-size: 1.5em;
+}
+
 /* Homepage */
 .salespoint {
   background: -webkit-radial-gradient(#00bfa0, #762911);
