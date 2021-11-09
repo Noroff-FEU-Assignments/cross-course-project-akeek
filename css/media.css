@@ -1,14 +1,19 @@
-
 @media only screen and (max-width: 599px) {
-    .flex_nav {
-      flex-direction: column;
-    }
+  .flex_nav {
+    flex-direction: column;
   }
-  
-  @media only screen and (max-width: 900px) {
-    .quote {
-      background-color: transparent;
-      bottom: 90px;
-    }
+}
+
+@media only screen and (max-width: 900px) {
+  .quote {
+    background-color: transparent;
+    bottom: 90px;
   }
-  
+}
+
+@media only screen and (max-width: 600px) {
+  .product-list {
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.8em;
+  }
+}

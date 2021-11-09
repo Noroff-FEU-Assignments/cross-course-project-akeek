@@ -1,20 +1,21 @@
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .jackets {
-    background: #e6dcd8;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+  background: #e6dcd8;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 .product-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding: 60px 60px;
 }
 
 img {
-    max-width: 100%;  
-    height: auto; 
+  max-width: 100%;
+  height: auto;
 }
