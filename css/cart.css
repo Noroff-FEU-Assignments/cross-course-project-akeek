@@ -31,12 +31,13 @@ h1 {
   border-color: white;
   font-size: 1.5em;
   margin-top: 0;
+  padding: 20px 0;
 }
 
 .product_image {
   min-width: 250px;
   height: auto;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .checkout_summary {
@@ -51,7 +52,6 @@ h1 {
 table {
   table-layout: auto;
   max-width: 100%;
-  padding: 20px;
 }
 
 td,
