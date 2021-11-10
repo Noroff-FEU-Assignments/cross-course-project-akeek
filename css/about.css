@@ -24,9 +24,21 @@ p {
   max-width: 400px;
 }
 
+
+
+@media only screen and (max-width: 900px) {
+  body {
+    background: #0a3641;
+  }
+  .container{
+    max-width: 600px;
+  }
+}
+
 @media only screen and (max-width: 599px) {
   .container {
     grid-template-columns: 1fr;
+    max-width: 400px;
   }
   body {
     background: #0a3641;
@@ -34,11 +46,4 @@ p {
   p{
     font-size: 1.1em;
   }
-}
-
-@media only screen and (max-width: 900px) {
-  body {
-    background: #0a3641;
-  }
-
 }
