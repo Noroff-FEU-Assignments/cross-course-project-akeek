@@ -33,7 +33,7 @@ h1 {
 }
 
 .product_image {
-  min-width: 300px;
+  min-width: 250px;
   height: auto;
 }
 
@@ -81,5 +81,8 @@ img {
 @media only screen and (max-width: 1260px) {
   .checkout {
     grid-template-columns: 1fr;
+  }
+  .checkout_summary {
+    margin: 0;
   }
 }
