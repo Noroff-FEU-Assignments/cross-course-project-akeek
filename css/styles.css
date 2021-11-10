@@ -133,9 +133,6 @@ h2 {
   .welcome {
     grid-template-rows: 1fr;
   }
-}
-
-@media only screen and (max-width: 599px) {
   nav {
     padding: 5px 40px 10px 40px;
   }
@@ -143,3 +140,4 @@ h2 {
     top: 40px;
   }
 }
+
