@@ -5,6 +5,12 @@
   }
 }
 
+@media only screen and (max-width: 599px) {
+  nav li{
+    margin: 0px;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .quote {
     background-color: transparent;

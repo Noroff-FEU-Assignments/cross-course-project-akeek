@@ -27,6 +27,7 @@ nav li {
   display: inline-block;
   position: relative;
   left: 30px;
+  margin: 30px;
 }
 
 nav a {
