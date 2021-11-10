@@ -16,7 +16,7 @@ header {
 }
 
 nav {
-  padding: 40px 40px 40px 40px;
+  padding: 40px;
   border-bottom: solid;
   border-width: 1px;
   border-color: #707070;
@@ -27,7 +27,7 @@ nav li {
   display: inline-block;
   position: relative;
   left: 30px;
-  margin: 30px;
+  margin: 0 30px;
 }
 
 nav a {

@@ -4,21 +4,19 @@ body {
 
 .checkout {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1fr;
   margin-top: 0;
   }
 
 .text{
     display: inline-block;
+    margin: 0 15px;
 }
 
 .bold{
   font-weight: bold;
 }
 
-.checkout_text {
-  margin-top: 0;
-}
 
 .checkout_text,
 .product_image{
@@ -26,7 +24,10 @@ body {
   border-width: 1px;
   border-color: white;
   padding: 20px;
+  font-size: 1.5em;
+  margin-top: 0;
 }
+
 
 .product_image {
   min-width: 300px;
@@ -35,7 +36,8 @@ body {
 
 .checkout_summary{
   background-color: grey;
-  margin-top: 0px;  
+  margin-top: 0px;
+  font-size: 1.5em;
 }
 
 
@@ -48,6 +50,7 @@ body {
 table{
   table-layout: auto;
   width: 100%;
+  vertical-align: top;
 }
 
 .center{
@@ -67,7 +70,7 @@ img {
   height: auto;
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 1260px) {
   .checkout {
     grid-template-columns: 1fr;
   }
