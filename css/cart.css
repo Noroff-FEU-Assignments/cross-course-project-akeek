@@ -98,4 +98,8 @@ img {
   .checkout_summary {
     margin: 0;
   }
+  .main {
+    vertical-align: middle;
+    padding-top: 0;
+  }
 }
