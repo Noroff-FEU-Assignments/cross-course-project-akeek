@@ -20,6 +20,13 @@ img {
 }
 
 h1 {
+  text-decoration: underline;
+  text-align: center;
+  padding: 20px;
+  color: #0a3641;
+}
+
+h2 {
   margin-top: 0;
 }
 
