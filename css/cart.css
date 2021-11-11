@@ -4,7 +4,6 @@ body {
 
 h1 {
   text-align: center;
-  text-decoration: underline;
   color: #0a3641;
   padding: 20px;
 }
@@ -97,6 +96,7 @@ img {
   }
   .checkout_summary {
     margin: 0;
+    margin-bottom: 20px;
   }
   .main {
     vertical-align: middle;

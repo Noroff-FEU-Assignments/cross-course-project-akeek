@@ -4,7 +4,6 @@ body {
 
 h1 {
   text-align: center;
-  text-decoration: underline;
   color: #0a3641;
   padding: 20px;
 }
@@ -29,4 +28,10 @@ img {
 .products {
   padding: 0px;
   margin: 0px;
+}
+
+@media only screen and (max-width: 599px) {
+  .product-list {
+    margin-bottom: 30px;
+  }
 }
