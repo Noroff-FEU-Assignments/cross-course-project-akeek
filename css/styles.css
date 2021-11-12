@@ -139,4 +139,7 @@ h2 {
   .logo {
     top: 40px;
   }
+  .welcome {
+    padding-left: 15px;
+  }
 }
