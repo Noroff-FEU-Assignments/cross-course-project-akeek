@@ -39,13 +39,17 @@ h1 {
   padding: 20px 0;
 }
 
+.product_pic {
+  border-radius: 10px;
+}
+
 .checkout_summary {
   background-color: #c3c1c0;
   color: #0a3641;
   margin-top: 0px;
   font-size: 1.5em;
   margin: 0 0 0 20px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 table {
@@ -101,5 +105,8 @@ img {
   .main {
     vertical-align: middle;
     padding-top: 0;
+  }
+  .product_pic {
+    border-radius: 10px;
   }
 }
