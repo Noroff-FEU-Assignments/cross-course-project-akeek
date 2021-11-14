@@ -94,6 +94,10 @@ img {
   height: auto;
 }
 
+.cta {
+  padding: 5px 150px;
+}
+
 @media only screen and (max-width: 1260px) {
   .checkout {
     grid-template-columns: 1fr;
@@ -108,5 +112,8 @@ img {
   }
   .product_pic {
     border-radius: 10px;
+  }
+  .cta {
+    padding: 0 100px;
   }
 }

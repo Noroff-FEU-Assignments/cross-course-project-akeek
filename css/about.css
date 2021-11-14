@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/Service.png");
+  background-image: url("../images/Service.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: left;
@@ -26,9 +26,23 @@ p {
   max-width: 600px;
 }
 
+.open {
+  max-width: 100%;
+  height: auto;
+  padding-top: 10px;
+  border-radius: 50%;
+}
+
 @media only screen and (max-width: 900px) {
   body {
-    background: #0a3641;
+    background: #e6dcd8;
+  }
+  p {
+    font-size: 1.1em;
+    color: black;
+  }
+  h1 {
+    color: black;
   }
 }
 
@@ -39,9 +53,19 @@ p {
     margin-bottom: 30px;
   }
   body {
-    background: #0a3641;
+    background: #e6dcd8;
   }
   p {
     font-size: 1.1em;
+    color: black;
+  }
+  h1 {
+    color: black;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .open {
+    display: none;
   }
 }
