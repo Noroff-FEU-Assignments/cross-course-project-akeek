@@ -17,12 +17,11 @@ p {
   color: white;
   font-weight: lighter;
   font-size: 1.2em;
-  margin: 5px;
+  margin: 15px;
 }
 
 .container {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
   max-width: 900px;
 }
 

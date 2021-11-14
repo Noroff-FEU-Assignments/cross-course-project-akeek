@@ -11,7 +11,6 @@ h1 {
 .checkout {
   display: grid;
   grid-template-columns: 1.5fr 1fr 0.8fr;
-  margin-top: 0;
 }
 
 .text {
@@ -50,6 +49,7 @@ h1 {
   font-size: 1.5em;
   margin: 0 0 0 20px;
   border-radius: 10px;
+  max-height: 350px;
 }
 
 table {
@@ -85,6 +85,12 @@ td {
 
 .top {
   border-top: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.bottom {
+  border-bottom: solid;
   border-width: 1px;
   border-color: white;
 }
