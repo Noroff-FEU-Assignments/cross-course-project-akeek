@@ -23,7 +23,7 @@ p {
 .container {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  max-width: 600px;
+  max-width: 900px;
 }
 
 .open {
