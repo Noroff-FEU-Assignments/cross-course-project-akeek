@@ -1,0 +1,12 @@
+.details {
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 2%;
+    
+  }
+
+.details img{
+    max-width: 500px;
+    max-height: 500px;
+}
