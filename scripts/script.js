@@ -23,6 +23,7 @@ function createHtml(products){
         `<a href="details.html?id=${product.id}" class="product">
             <h2>${product.name}</h2>
             <img src="${product.images[0].src}" alt="${product.name}">
+            <div class="price">Price: ${product.prices.currency_code} ${product.prices.price},-</div>
         </a>`;
     })
 }

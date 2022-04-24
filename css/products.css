@@ -20,6 +20,12 @@
 
   }
 
+  .price{
+    color:   #0a3641;
+    padding: 10px 0;
+    font-size: 1.2rem;
+  }
+
   body {
     background: #e6dcd8;
   }

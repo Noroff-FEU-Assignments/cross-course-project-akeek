@@ -29,7 +29,8 @@ function createHtml(products) {
     detailContainer.innerHTML = 
     `<h1>${products.name}</h1>
         <img src="${products.images[0].src}" alt="${products.name}">
-        <div>${products.short_description}</div>`
+        <div>${products.short_description}</div>
+        <div class="price">Price: ${products.prices.currency_code} ${products.prices.price},-</div>`
 }
 
 fetchProduct();
