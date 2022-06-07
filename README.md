@@ -13,26 +13,6 @@
 - CSS
 - Javascript
 
-## Getting Started
-
-### Installing
-
-1. Clone the repo:
-
-```bash
-https://github.com/Noroff-FEU-Assignments/cross-course-project-akeek.git
-```
-
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
-
 ## Contributing
 
 If you are contributing to this project, make sure to open a pull request so code can be reviewed.
