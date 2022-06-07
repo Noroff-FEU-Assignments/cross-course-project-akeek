@@ -4,13 +4,8 @@
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+- In this project I was supposed to make a webpage that looks like an online store
+- Later on we included Javascript and set up an API-call
 
 ## Built With
 
@@ -26,12 +21,6 @@ You can add some bullet points if you'd like to:
 
 ```bash
 https://github.com/Noroff-FEU-Assignments/cross-course-project-akeek.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
 ```
 
 ### Running
